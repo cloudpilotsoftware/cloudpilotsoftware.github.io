@@ -1,0 +1,40 @@
+{
+  "services": [
+    {
+      "image": "/assets/img/icons/serv_icons/7.png",
+      "title": "Cloud Consultation",
+      "desc": "We specialize in delivering top-notch Cloud Infrastructure solutions tailored to suit the unique needs of any business, encompassing strategy, management, and more.",
+      "tags": ["Strategy", "Consultation", "Management", "Infrastructure","IaaC","AWS","AZURE","GOOGLE CLOUD"]
+    },
+    {
+      "image": "/assets/img/icons/serv_icons/8.png",
+      "title": "OpenSource Software Deployment",
+      "desc": "We will expertly tailor and implement open-source software solutions in the cloud, precisely catering to your business needs, user base, and scalability requirements.",
+      "tags": ["Open-Source", "Landing Pages","OpenAI", "ChatGpt", "CMS", "Plugin", "Custom Software","Docker","KuberNetes","ServerLess"]
+    },
+    {
+      "image": "/assets/img/icons/serv_icons/9.png",
+      "title": "Dev ops",
+      "desc": "Our DevOps solutions cover automated deployment from source code, seamless management of multiple environments, and automated testing, enabling efficient software delivery and maintenance.",
+      "tags": ["Github Actions","Azure Devops","Jenkins","Travis CI"]
+    },
+    {
+      "image": "/assets/img/icons/serv_icons/15.png",
+      "title": "Social Media Marketing",
+      "desc": "Our Social Media Marketing services include targeted ad campaigns, captivating landing page design, and professional newsfeed posts, ensuring effective brand promotion across various platforms.",
+      "tags": ["Github Actions","Azure Devops","Jenkins","Travis CI"]
+    }
+  ],
+  "works": [
+    {
+      "image": "/assets/img/projects/1.png",
+      "title": "Rento Car Rental Dashboard",
+      "tags": ["Landing Page, ", "UI/UX Design"]
+    },
+    {
+      "image": "/assets/img/projects/2.png",
+      "title": "Analys & Backup Blockchain",
+      "tags": ["data security, ", "IT consultation"]
+    }
+  ]
+}
