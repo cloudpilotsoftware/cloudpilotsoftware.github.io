@@ -16,6 +16,7 @@ import nuxt_plugin_vuescrollto_ed8a03aa from 'nuxt_plugin_vuescrollto_ed8a03aa' 
 import nuxt_plugin_vueAwesomeSwiper_282933cc from 'nuxt_plugin_vueAwesomeSwiper_282933cc' // Source: ..\\plugins\\vueAwesomeSwiper.js (mode: 'all')
 import nuxt_plugin_lightGalleryclient_235dd9a0 from 'nuxt_plugin_lightGalleryclient_235dd9a0' // Source: ..\\plugins\\lightGallery.client.js (mode: 'client')
 import nuxt_plugin_vueRangeSlider_4db07729 from 'nuxt_plugin_vueRangeSlider_4db07729' // Source: ..\\plugins\\vueRangeSlider.js (mode: 'client')
+import nuxt_plugin_vuefbcustomerchat_0b9d4ea4 from 'nuxt_plugin_vuefbcustomerchat_0b9d4ea4' // Source: ..\\plugins\\vue-fb-customer-chat.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -65,7 +66,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"Iteck","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"httpEquiv":"X-UA-Compatible","content":"IE=edge"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Iteck - Multi-Purpose Vue.js Nuxt.js Template"},{"name":"keywords","content":"Vue Nuxtjs Template Iteck Multi-Purpose themeforest"},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"shortcut icon","sizes":"16x16","href":"\u002Fassets\u002Fimg\u002Ffav.png"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=El+Messiri:wght@400;500;600;700&display=swap"}],"script":[{"src":"\u002Fassets\u002Fjs\u002Flib\u002Fpace.js"},{"src":"\u002Fassets\u002Fjs\u002Flib\u002Fbootstrap.bundle.min.js"},{"src":"\u002Fassets\u002Fjs\u002Flib\u002Fmixitup.min.js"},{"src":"\u002Fassets\u002Fjs\u002Flib\u002Fwow.min.js"},{"src":"\u002Fassets\u002Fjs\u002Flib\u002Fhtml5shiv.min.js"},{"src":"\u002Fassets\u002Fjs\u002Fmain.js","ssr":false}],"style":[]},
+    head: {"title":"CloudPilot","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"httpEquiv":"X-UA-Compatible","content":"IE=edge"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"CloudPilot Software, A service based Cloud Consultant"},{"name":"keywords","content":"CloudPilot Software Fiverr Upwork Docker Deployment CI\u002FCD Github-Actions"},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"shortcut icon","sizes":"16x16","href":"\u002Fassets\u002Fimg\u002Ffav\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=El+Messiri:wght@400;500;600;700&display=swap"}],"script":[{"src":"\u002Fassets\u002Fjs\u002Flib\u002Fpace.js"},{"src":"\u002Fassets\u002Fjs\u002Flib\u002Fbootstrap.bundle.min.js"},{"src":"\u002Fassets\u002Fjs\u002Flib\u002Fmixitup.min.js"},{"src":"\u002Fassets\u002Fjs\u002Flib\u002Fwow.min.js"},{"src":"\u002Fassets\u002Fjs\u002Flib\u002Fhtml5shiv.min.js"},{"src":"\u002Fassets\u002Fjs\u002Fmain.js","ssr":false}],"style":[]},
 
     router,
     nuxt: {
@@ -193,6 +194,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.client && typeof nuxt_plugin_vueRangeSlider_4db07729 === 'function') {
     await nuxt_plugin_vueRangeSlider_4db07729(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_vuefbcustomerchat_0b9d4ea4 === 'function') {
+    await nuxt_plugin_vuefbcustomerchat_0b9d4ea4(app.context, inject)
   }
 
   // Lock enablePreview in context

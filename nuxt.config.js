@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Iteck',
+    title: 'CloudPilot',
     htmlAttrs: {
       lang: 'en'
     },
@@ -12,12 +12,12 @@ export default {
       { charset: 'utf-8' },
       { httpEquiv: 'X-UA-Compatible', content: 'IE=edge' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Iteck - Multi-Purpose Vue.js Nuxt.js Template' },
-      { name: 'keywords', content: 'Vue Nuxtjs Template Iteck Multi-Purpose themeforest' },
+      { hid: 'description', name: 'description', content: 'CloudPilot Software, A service based Cloud Consultant' },
+      { name: 'keywords', content: 'CloudPilot Software Fiverr Upwork Docker Deployment CI/CD Github-Actions' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'shortcut icon', sizes: '16x16', href: '/assets/img/fav.png' },
+      { rel: 'shortcut icon', sizes: '16x16', href: '/assets/img/fav/favicon.ico' },
       { rel: 'stylesheet', href:'https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap' },
       { rel: 'stylesheet', href:'https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap' },
     ],
@@ -41,7 +41,8 @@ export default {
   plugins: [
     "~/plugins/vueAwesomeSwiper.js",
     { src: "~/plugins/lightGallery.client.js", ssr: false },
-    { src: "~/plugins/vueRangeSlider.js", ssr: false }
+    { src: "~/plugins/vueRangeSlider.js", ssr: false },
+    { src: '~/plugins/vue-fb-customer-chat.js', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
