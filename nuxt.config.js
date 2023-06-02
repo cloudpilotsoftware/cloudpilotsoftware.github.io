@@ -53,7 +53,7 @@ export default {
   ],
   router: {
     prefetchLinks: false,
-    base: 'cloudpilot.software'
+    base: '/cloudpilot.software/'
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
