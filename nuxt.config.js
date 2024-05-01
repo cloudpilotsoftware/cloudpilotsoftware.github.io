@@ -2,6 +2,7 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'CloudPilot',
@@ -13,7 +14,7 @@ export default {
       { httpEquiv: 'X-UA-Compatible', content: 'IE=edge' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'CloudPilot Software, A service based Cloud Consultant' },
-      { name: 'keywords', content: 'CloudPilot Software Fiverr Upwork Automation Docker Deployment CI/CD Github-Actions' },
+      { name: 'keywords', content: 'CloudPilot Software Fiverr Upwork Docker Deployment CI/CD Github-Actions' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -55,7 +56,7 @@ export default {
     prefetchLinks: false,
     base: '/'
   },
- 
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     ["vue-scrollto/nuxt", { duration: 1000 }]
