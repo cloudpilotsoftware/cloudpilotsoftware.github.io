@@ -2,8 +2,8 @@
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\Cefalo\\\\Desktop\\\\fvr\\\\cloudpilot\\\\main-files\\\\iteck-nuxtjs\\\\pages\\\\index.vue",
+    "component": "/workspaces/cloudpilotsoftware.github.io/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_300683f8"
+    "_name": "_7c5e7f15"
   }
 ]
